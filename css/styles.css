@@ -1,0 +1,90 @@
+/* DEFAULTS */
+*{
+    margin:0;
+    padding:0;
+}
+
+/* LANDING PAGE */
+.landing-page-container{
+    display:flex;  
+    background-color: skyblue;
+    height:100vh;
+    /* border:1px solid red; */
+    width:100%;
+        /* background image properties */
+        background-image: url('../images/landingpagebackground.png');
+        background-size:cover;
+}
+
+.tag-line-container{
+    display: flex;
+    flex-direction:column;
+    /* border:1px solid blue; */
+    width: 50%;
+}
+.headings-container{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: 100%;
+}
+.headings-container > a{
+    color:grey;
+    text-decoration:none;
+    text-shadow:1px 1px black;
+}
+.headings-container > a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+.headings-container > h1{
+    color: gold;
+    font-size: xxx-large;
+    text-shadow: 1px 1px black;
+}
+.headings-container >h2{
+    color:white;
+    text-shadow: 1px 1px black;
+}
+
+/* FORM SECTION */
+.form-container{
+    display: flex;
+    flex-direction: column;
+    /* border:1px solid green; */
+    width:50%;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+form > label{
+    padding: 10px;
+    margin:5px 5px 0px 5px;
+    color:white;
+    font-size: large;
+}
+form > input,
+form > textarea{
+    padding: 10px;
+    margin:5px 5px 0px 5px;
+    border-radius: 10px;
+}
+form > button{
+    padding:10px;
+    margin:5px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: maroon;
+    border: 1px solid maroon;
+    color: white;
+}
+form > button:hover{
+    background-color: black;
+    color:white;
+    border:1px solid black;
+}
